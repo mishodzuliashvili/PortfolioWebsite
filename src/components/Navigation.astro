@@ -1,0 +1,24 @@
+---
+const navLinks = [
+    {
+        label: "Home",
+        url: "/",
+    },
+    {
+        label: "About",
+        url: "/about/",
+    },
+    {
+        label: "Blog",
+        url: "/blog/",
+    },
+    {
+        label: "Tags",
+        url: "/tags/",
+    },
+];
+---
+
+<div class="nav-links">
+    {navLinks.map((link) => <a href={link.url}>{link.label}</a>)}
+</div>
