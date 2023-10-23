@@ -32,7 +32,7 @@ export default function Home() {
                     Incrementing my GitHub commit streak one day at a time
                 </p>
             </section>
-            {/* Hey */}
+            {/* Xd */}
             <section className="flex gap-3">
                 <Link
                     href="https://github.com/mishodzuliashvili"
