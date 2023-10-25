@@ -1,3 +1,4 @@
+import ProjectList from "@/components/ProjectList";
 import Typing from "@/components/Typing";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,7 +22,7 @@ export default function Home() {
                 </div>
             </header>
             <section>
-                <div className="font-bungee text-lg flex gap-1 flex-wrap">
+                <div className="font-bold text-lg flex gap-1 flex-wrap">
                     <span>👋 HI, {"I'M"} MISHO. I </span> <Typing />
                 </div>
             </section>
@@ -55,6 +56,9 @@ export default function Home() {
                 >
                     <MdEmail />
                 </Link>
+            </section>
+            <section>
+                <ProjectList />
             </section>
         </main>
     );
