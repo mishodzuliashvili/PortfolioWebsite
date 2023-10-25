@@ -24,7 +24,7 @@ export default function ProjectList({}: ProjectListProps) {
                     title="Remote Games"
                 />
                 <ProjectLink
-                    href="https://vercel.com/mishodzuliashvili/next-auth-website"
+                    href="https://next-auth-website.vercel.app/"
                     title="Next Auth"
                 />
                 <ProjectLink
